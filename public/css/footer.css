@@ -1,0 +1,43 @@
+.footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin-top: 20px;
+}
+
+.colfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+
+.colfooter b {
+    font-size: 25px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-left: 3px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}

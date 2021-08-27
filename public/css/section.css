@@ -1,0 +1,72 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+.formsearch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formsearch input {
+    height: 35px;
+    width: 250px;
+    border: none;
+    color: black;
+    font-size: 18px;
+}
+
+.formsearch button {
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 17.5px;
+}
+
+.formsearch button i {
+    font-size: 25px;
+    color: black;
+}
+
+.btnedit {
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(102, 224, 184);
+    border-radius: 3px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnedit a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.btnedit:hover {
+    background-color: rgb(124, 241, 134);
+    color: rgb(252, 0, 0);
+}

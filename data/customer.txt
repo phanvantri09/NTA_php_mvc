@@ -1,0 +1,4 @@
+1|phan văn khách hàng|pvtri.18it5@vku.udn.vn|0372868775|09/02/2000
+2|phan văn khách 2|pvtri.18it5@vku.udn.vn|0905523227|09/02/2000
+3|phan văn khách 3|pvtri.18it5@vku.udn.vn|0355335535|09/02/2000
+4|phan văn khách 4|pvtri.18it5@vku.udn.vn|0365404799|09/02/2000

@@ -1,0 +1,50 @@
+.header {
+    border: 1px solid black;
+    ;
+    margin-top: 10px;
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.colheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.colheader img {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.colheader b {
+    font-size: 20px;
+    color: black;
+}
+
+.header a {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+    border: 1px solid rgb(3, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.header a:hover {
+    background-color: brown;
+    color: rgb(255, 255, 255);
+}
