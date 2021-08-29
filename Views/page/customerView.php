@@ -18,6 +18,7 @@
     <th>Email</th>
     <th>SDT</th>
     <th>Ngày Sinh</th>
+    <th>Sự kiện</th>
   </tr>
     <?php
     foreach($kc as $key => $item){
@@ -30,6 +31,10 @@
     <td><?php echo $item[2]?></td>
     <td><?php echo $item[3]?></td>
     <td><?php echo $item[4]?></td>
+    <td><form action="POST">
+    <button type="submit" name="sendmail"><i class="fas fa-envelope-open-text"><a href="index.php?controller=customer&action=index"></a></i>   </button>
+      </form>
+      </td>
   </tr>
       <?php  
       }
@@ -46,6 +51,7 @@
     <th>Email</th>
     <th>SDT</th>
     <th>Ngày Sinh</th>
+    <th>Sự kiện</th>
   </tr>
   <?php
     foreach($kc as $key => $item){
@@ -56,6 +62,10 @@
     <td><?php echo $item[2]?></td>
     <td><?php echo $item[3]?></td>
     <td><?php echo $item[4]?></td>
+    <td><form method="POST">
+      <input type="hidden" name="addressMail" value="<?php echo $item[2]?>">
+    <a href="index.php?controller=customer&action=index"><button type="submit" name="sendmail"><i class="fas fa-envelope-open-text"></i></button></a>
+    </form></td>
   </tr>
   <?php 
       }
