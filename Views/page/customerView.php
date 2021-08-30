@@ -71,4 +71,17 @@
       }
   ?>
 </table>
+<div>
+<form method="POST">>
+  <label for="fname">Họ Tên:</label><br>
+  <input type="name" name="name" value=""><br>
+  <label for="lname">Email:</label><br>
+  <input type="text" name="email"  value="Doe"><br><br>
+  <label for="fname">SDT:</label><br>
+  <input type="name" name="sdt" value=""><br>
+  <label for="lname">ngày sinh:</label><br>
+  <input type="date" name="dateofbirth" value=""><br><br>
+  <input type="submit" name="update" value="Cập nhật lại">
+</form>
+</div>
 </div>

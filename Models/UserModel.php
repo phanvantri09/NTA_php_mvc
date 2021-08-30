@@ -21,11 +21,5 @@ class UserModel{
             echo "k có file";    
         }
     }
-    public function findbyid(){
-        return __METHOD__;
-    }
-    public function delete(){
-
-    }
 }
 ?>

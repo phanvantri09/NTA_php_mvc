@@ -25,7 +25,10 @@
    }
   ?>
 </table>
-<div class="btnedit"><a  href="">Sửa thông tin</a></div>
-
-
+<form action="" method="POST" enctype="multipart/form-data" class="updatefile">
+  <label for="">Thay đổi ảnh đại diện của bạn</label>
+  <input type="file" name="choesefile" value="Chọn file avatar">
+  <input type="hidden" name="nameuser" value="<?php echo $_SESSION['usernameLogin']?>">
+  <a href="index.php?controller=user&action=index"><input class="submit" type="submit"></a>
+</form>
 </div>
