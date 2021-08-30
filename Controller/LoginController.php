@@ -17,13 +17,14 @@ class LoginController extends BaseController{
                 if(isset($_COOKIE[$cookie_name])){
      
                     parse_str($_COOKIE[$cookie_name]);
-    
+                    if(!empty($items)){
                     foreach($items as $key => $item){
                         if($item[1]==$usr && $item[4]==$hash){
                             $this->view('page.Login',[]);//chuyển view cho màn hình
                             echo "<script>alert('đăng nhập ko thành công session')</script>";
                         }
                     }
+                }
                 }
             }
         }else{
